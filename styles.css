@@ -1,0 +1,264 @@
+        body{
+
+            text-align: center;
+            background-color: #CAE0BC;
+            font-family: 'Serif';
+        }
+
+
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header img {
+            margin-left: 20px;
+            height: 100px;
+        }
+
+        .section {
+            padding: 20px 0 0 0;
+            text-align: center;
+        }
+        .section-1 {
+            background-color: #CAE0BC;
+            color: black;
+            margin-left: -20px;
+            margin-right: -20px;
+            padding-bottom: 20px;
+        }
+        .section-2 {
+            background-color: #EAFAEA;
+            color: white;
+            text-align: left;
+            padding-top: 100px;
+            padding-left: 200px;
+            padding-bottom: 100px;
+        }
+        .section-3 {
+            background-color: #CAE0BC;
+            color: black;
+            text-align: right;
+            margin-right: 200px
+        }
+        .section-4 {
+            background-color: #EAFAEA;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .section-5 {
+            background-color: #CAE0BC;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .section-6{
+            background-color: #EAFAEA;
+            color: white;
+            text-align: left;
+            padding-top: 100px;
+            padding-left: 200px;
+            padding-bottom: 100px;
+        }
+        .section-7 {
+            background-color: #CAE0BC;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .pacifico-font {
+            font-family: 'Pacifico', cursive;
+        }
+        h1{
+            font-family: 'Pacifico', cursive;
+            font-size: 3em;
+            color: #333;
+        }
+        h1 a:hover {
+            text-shadow: 0 0 10px rgba(233, 135, 135, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
+        }
+        h2{
+
+            font-family: 'Pacifico', cursive;
+            font-size: 1.5em;
+            color: #333;
+        }
+        h3{
+            font-family: 'Pacifico', cursive;
+            font-size: 2em;
+            color: #333;
+        }
+        h4{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1em;
+            color: #333;
+            margin-left: 40%;
+            margin-right: 40%;
+
+        }
+        h5{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1em;
+            color: #333;
+            text-align: left;
+            margin-right: 80%;
+        }
+        h6{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1em;
+            color: #333;
+            text-align: right;
+            margin-left: 80%;
+        }
+        #about{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1em;
+            color: #333;
+            
+        }
+        .image-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .image-container img {
+            margin: 0 10px; /* Adjust the margin as needed */
+        }
+        .image-container .cloud {
+            height: 100px; /* Same size as the one in the header */
+            width: auto; /* Maintain aspect ratio */
+        }
+        .lego-bottle {
+            margin-left: 400px; /* Adjust the margin as needed */
+            margin-bottom: 500px;
+        }
+        .arrow1-image {
+            position: absolute;
+            width: 125px;
+            height: 125px;
+            margin-top: -50px;
+            margin-left: 700px;
+        }
+        .secondarrow1-image {
+            position: absolute;
+            margin-left: 300px;
+            rotate: 90deg;
+            width: 125px;
+            height: 125px;
+        }
+        .movable-image {
+            position: absolute;
+            top: 1900px; /* Adjust the value as needed */
+            left: 300px; /* Adjust the value as needed */
+            /* You can also use right and bottom properties if needed */
+        }
+        .letter-image {
+            position: absolute;
+            margin-left: -650px;
+            margin-top: -200px;
+            width: 250px;
+            height: 250px;
+            
+        }
+        .text-image {
+            margin-top: -30px;
+            height: 100px;
+            width: 350px;
+        }
+        .holo-image {
+            position: absolute;
+            margin-top: -250px;
+            margin-left: 600px;
+            rotate: 15deg;
+            height: 300px;
+            width: 350px;
+        }
+        .thirdarrow1-image {
+            position: absolute;
+            margin-top: -180px;
+            margin-left: 380px;
+            rotate: 300deg;
+            width: 125px;
+            height: 125px;
+        }
+        .finn-image {
+            position: absolute;
+            margin-top: 100px;
+            margin-left: 300px;
+            width: 300px;
+            height: 300px;
+        }
+        .jake-image {
+            position: absolute;
+            margin-top: -300px;
+            left: 1400px;
+            width: 800px;
+            height: 250px;
+        }
+        .Miffy-image {
+            position: absolute;
+            margin-top: -500px;
+            margin-right: 200px;
+            margin-left: 200px;
+            width: 300px;
+            height: 400px;
+        }
+        .date-generator-box {
+            background-color: #fff;
+            border: 2px solid #333;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .date-generator-box h3 {
+            font-family: 'Pacifico', cursive;
+            font-size: 1.5em;
+            color: #333;
+        }
+        
+        .date-generator-box button {
+            background-color: #71BBB2;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        
+        .date-generator-box button:hover {
+            background-color: #5a9b8a;
+        }
+        
+        .date-result-box {
+            margin-top: 20px;
+            font-family: 'Arial', sans-serif;
+            font-size: 1.2em;
+            color: #333;
+        }
+        .valentine-button {
+            background-color: #71BBB2;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1em;
+            margin: 10px;
+        }
+        
+        .valentine-button:hover {
+            background-color: #5a9b8a;
+        }
+        
+        .result {
+            font-size: 2em;
+            margin-top: 20px;
+        }

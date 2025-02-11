@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyruz Tam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+
+<body>
+    <div class="header">
+       
+        <h1><a href="./public/love.html" style="text-decoration: none; color: inherit;">A Beautiful Life with YOU</a></h1>
+        <img src="./assets/images/pngegg.png" alt="Clouds">
+    </div>
+
+    <div class="section">
+        <h2>by Cyruz Tam</h2>
+        <div class="image-container">
+
+            <img src="./assets/images/Cycy.png" alt="Cycy" height="400" width="400">
+            <img src="./assets/images/HuggyC.png" alt="Huggy" height="500" width="500">
+            <img src="./assets/images/Chrissy.png" alt="Chrissy" height="400" width="400">
+
+        </div>
+    </div>
+
+
+
+<div class="section section-1">
+    <h3> My Dearest Chrissy, </h3>
+    <h2> Happy Valentine's Day, my Love! </h2>
+    <h4>I hope you don't find this website too cheesy, but you're always making something
+        from hand just for me, and I'd like to do the same -but my way hehe...
+        <h4>I don't even know where to begin...</h4>
+        <h4>I thank God and the universe every day because you are the most precious blessing that I've ever received.
+        If I were to say how thankful I am for you, there would be a list of a hundred reasons.
+        But I do want to say thank you for being my best friend. I know I've said it a thousand times but I am really 
+        grateful for your love. You chose to give your love and trust in me, and I will gladly accept the opportunity to
+        cherish and protect it with all my heart. You remind me that no matter how tough life gets or whatever situation 
+        we are put in, we will always come out on top, giving each other the best version of ourselves. 
+        We have never lost our spark; it has always been burning and burning, waiting for the perfect moment to ignite.
+        I can confidently say that I Love You, and I always will.  
+        </h4>
+        <h4>Now... when you're done reading this- how about we explore this site I made for you?</h4>
+
+    <img src="assets/images/Cloud.png" alt="Clouds" width="100" height="50">
+    <img src="assets/images/Cloud.png" alt="Clouds" width="150" height="100">
+    <img src="assets/images/Cloud.png" alt="Clouds" width="200" height="150">
+    
+</div>
+
+<div class="section section-2">
+    <h3>The Talking Stage</h3>
+    <img src="assets/images/Text.jpg" alt="Text" class="text-image">
+    <h5>This message right here gave me goosebumps.
+        The talking stage is that sweet, uncertain, and exciting phase before a relationship starts. 
+        It started with playful inside jokes, and then we gave each other a taste of whatever we found humorous.
+        Remember when we both laughed at the Lego water bottle? It stuck to me as a core memory. </h5>
+    <img src="assets/images/LegoBottle.png" alt="Bottle" class="lego-bottle movable-image">
+
+
+    <h5 class="pacifico-font">My First Impression of You</h5>
+    <h5>The first time we talked, it felt so nice and refreshing to connect with an old friend.
+        I loved how you carried yourself, you were sweet and easy to talk to, it felt like I could 
+        have an unending conversation with you and I'd enjoy every second of it. 
+        You had this energy that pulled me close and a warmth that wanted me to stay.
+        You were funny, kind, and beautiful inside and out.
+        From that moment on, you've been my favorite person, and I wouldn't change a single thing
+        about how it all started.</h5>
+
+        <img src="assets/images/Arrow1.png" alt="Arrow1" class="arrow1-image">
+</div>
+
+<div class="section section-3">
+
+<h3>The First Date</h3>
+<h6>Oh man this was pretty scary.
+    This was the first time we were going to meet in person, 
+    and I was so nervous. Many thoughts running through my head...
+    "What if she doesn't like me?" "What if I'm not what she expected?"
+    But asoon as I saw you, all my worries disappeared. You were so beautiful,
+    I knew I had to cherish every moment and time with you.
+
+    <img src="assets/images/Letter.png" alt="Letter" class="letter-image">
+</h6>
+
+</div>
+
+
+
+<div class="section section-1">
+<h2>and then. . .</h2>
+<img src="assets/images/Arrow1.png" alt="Arrow1" class="secondarrow1-image">
+<h3>Our First Kiss!!!</h3>
+<img src="assets/images/Kiss.png" alt="Kiss" width="400" height="350">
+<h4>(Yes, I know the kiss was first just go with timeline for now hehe)</h4>
+</div>
+
+
+
+<div class="section section-2">
+
+    <h3>From then on. . . </h3>
+    <h5>Our love grew stronger and stronger. We were shining brigther than ever before, and I wouldn't have it any other way.
+        From this moment on i've found my soulmate, bestfriend, and someone I can call home. I love you more than words can express, and I can't wait to spend
+        the rest of my life with you.</h5>
+    <img src="assets/images/Holo.png" alt="Holo" class="holo-image">
+    <img src="assets/images/Arrow1.png" alt="Arrow1" class="thirdarrow1-image">
+
+</div>
+
+
+<div class="section section-1"> 
+
+
+</div>
+
+<div class="section section-1"> 
+    <div class="date-generator-box">
+        <h3>Future Date Generator</h3>
+        <button id="generate-date-button">Generate Date</button>
+        <div id="date-result" class="date-result-box"></div>
+    </div>
+</div>
+
+
+<script>
+    document.getElementById('generate-date-button').addEventListener('click', function() {
+        const dateResult = document.getElementById('date-result');
+        const message = getRandomMessage();
+        dateResult.textContent = `Your future date idea: ${message}`;
+    });
+
+    function getRandomMessage() {
+        const messages = [
+            "Let's go for a romantic dinner!",
+            "How about a movie night?",
+            "Let's take a walk in the park with Milo.",
+            "Let's go to DisneyLand!",
+            "Let's go for a hike!",
+            "How about a picnic?",
+            "Let's visit a museum.",
+            "How about cooking together? I love your cooking!",
+            "Any upcoming concerts you'd like to see?",
+            "Let's do a skincare routine together!",
+            "How about we make a movie ;)",
+            "Rematch on rock, paper, scissors with tortillas?",
+            "Fancy dinner date night",
+            "Late night drive to nowhere.",
+            "Deep yap session while looking at a view.",
+            "Stay at home and cuddle watching our favorite shows?",
+            "Snowboard date!!!",
+            "Gaming lounge date.",
+            "Let's go to the beach sexy.",
+            "Study dates are always fun.",
+            "Spoil me and take me to the Pokemon card shop hehe.",
+            "Let's do a photoshoot together or make a vlog.",
+            "Cheap date!!! Let's give our wallets a break.",
+            "Come slow dance with me Babygirl!",
+        ];
+        const randomIndex = Math.floor(Math.random() * messages.length);
+        return messages[randomIndex];
+    }
+</script>
+
+
+<div class="section section-4">
+    <h3>OUR Song</h3>
+   
+    <iframe src="https://open.spotify.com/embed/track/03G92s34DOQCqcVZl0Gaoh" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <h4>I remember you would always play this song whenever im around.
+        As a friend, at the time I didn't think much of it, I knew the song had a meaning
+        but I didn't think it would apply to me. But now, I guess we dont have to Pretend.
+    </h4>
+    
+</div>
+
+<div class="section section-5">
+    <h3>C&C 101</h3>
+    <h4>Always end an argument with "I love you."</h4>
+    <h4>Never skip a day without saying "I love you."</h4>
+    <h4>Always be honest, don't hife anything from each other.</h4>
+    <h4>Don't call each other hurtful names even in an argument.</h4>
+    <h4>Its US AGAINST the problem.</h4>
+    <h4>Alternate paying for date nights.</h4>
+    <h4>Try to make him/her smile everyday even if we're arguing.</h4>
+    <h4>Every end of the month have a monthly check up with each other. Say whatsever in your mind- have a deep conversation</h4>
+    <h4>At least 5 minutes of debrief with each other every night.</h4>
+    <h4>Every friday night is our night.</h4>
+</div>
+
+
+
+<div class="section section-6">
+    <h3>To my Princess...</h3>
+    <h5>This isn't my usual love letter to you, but I wanted to try something different.
+        I wanted to make something that will last and something you could always look back to and smile, with
+        a simple click of a URL of course.
+        Everything on this page was made with my whole heart to every little detail and text. Trust me coding
+        is a pain in the booty cheeks. My only regret is not starting this fun little project any sooner
+        because I had a blast making this for you and I have so much more ideas in my head. 
+        Take this as a fraction of what I have to offer you, and I can't wait to show you more.
+        Thank you for being my inspiration and motivation- not just in making this project but in everything I do.  
+        I hope you enjoyed this little website I made for you, and I wanted you to know that you will always have 
+        a special place in my heart.
+    </h5>
+    <h5>Christine Mae Salcedo</h5>
+
+    <h5>- Your Lover Boy, Cy</h5>
+    P.S. If you missed it, scroll up and click the lil title at the top of the page.
+    <img src="assets/images/Miffy.png" alt="Miffy" class="Miffy-image" width="200" height="200">
+</div>
+
+
+<div class="section section-7">
+    <h3>One last thing...</h3>
+    <h3>Will you be my valentine?</h3>
+    <button class="valentine-button" id="yes-button">Yes</button>
+    <button class="valentine-button" id="no-button">No</button>
+    <div id="result" class="result"></div>
+</div>
+
+<script>
+    document.getElementById('yes-button').addEventListener('click', function() {
+        document.getElementById('result').innerHTML = '<img src="./assets/images/roses.png" alt="Roses" width="200" height="200">' + '<h4>Have these roses baby :3</h4>';
+    });
+
+    document.getElementById('no-button').addEventListener('click', function() {
+        document.getElementById('result').innerHTML = '<h4>Try again mf</h4>';
+    });
+</script>
+
+
+<p id="about"><a href="./public/about.html">About me</a></p>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
